@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="WiFiConnect.MainPage"
+    x:Class="WiFiConnect.WiFiList"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:WiFiConnect"
@@ -8,15 +8,15 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid x:ConnectionId='2'                     >
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Button x:Name="GenerateQR" Content="Generate QR" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="150" Height="50" Grid.Row="0" Grid.Column="0" Click="GenerateQR_Click"/>
-        <Button x:Name="ScanQR" Content="Scan QR" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="150" Height="50" Grid.Row="1" Grid.Column="0"/>
+        <ListView x:ConnectionId='3' x:Name="WiFiListView" Grid.Column="0" Grid.Row="0"/>
+
     </Grid>
 </Page>
+

@@ -214,3 +214,8 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\MultipleQualifier
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\resources.en-us.resfiles
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\resources.en-us.resfiles.intermediate
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\ProjectArchitectures.txt
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\WiFiList.xbf
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\WiFiList.g.i.cs
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\WiFiList.g.cs
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\WiFiList.xaml
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\WiFiList.xbf
