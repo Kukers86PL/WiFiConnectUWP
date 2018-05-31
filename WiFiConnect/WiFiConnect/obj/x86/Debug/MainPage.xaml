@@ -9,8 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Height="195" Margin="266,257,0,0" Text="Hello World" TextWrapping="Wrap" VerticalAlignment="Top" Width="729"/>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button Content="Generate QR" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="150" Height="50" Grid.Row="0" Grid.Column="0"/>
+        <Button Content="Scan QR" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="150" Height="50" Grid.Row="1" Grid.Column="0"/>
     </Grid>
 </Page>
 
