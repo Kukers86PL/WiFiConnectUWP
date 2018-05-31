@@ -15,7 +15,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <ListView x:Name="WiFiListView" Grid.Column="0" Grid.Row="0"/>
+        <ListView x:Name="WiFiListView" Grid.Column="0" Grid.Row="0" IsMultiSelectCheckBoxEnabled="False" SelectionChanged="WiFiListView_SelectionChanged"/>
 
     </Grid>
 </Page>

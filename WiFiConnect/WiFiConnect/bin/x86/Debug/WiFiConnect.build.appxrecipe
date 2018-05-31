@@ -409,6 +409,9 @@
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\Password.xbf">
+      <PackagePath>Password.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\WiFiList.xbf">
       <PackagePath>WiFiList.xbf</PackagePath>
     </AppxPackagedFile>

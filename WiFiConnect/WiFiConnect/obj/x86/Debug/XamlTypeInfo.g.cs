@@ -189,17 +189,19 @@ namespace WiFiConnect.WiFiConnect_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "WiFiConnect.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "WiFiConnect.WiFiList";
+            _typeNameTable[3] = "WiFiConnect.Password";
+            _typeNameTable[4] = "WiFiConnect.WiFiList";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::WiFiConnect.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::WiFiConnect.WiFiList);
+            _typeTable[3] = typeof(global::WiFiConnect.Password);
+            _typeTable[4] = typeof(global::WiFiConnect.WiFiList);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -235,7 +237,8 @@ namespace WiFiConnect.WiFiConnect_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::WiFiConnect.MainPage(); }
-        private object Activate_3_WiFiList() { return new global::WiFiConnect.WiFiList(); }
+        private object Activate_3_Password() { return new global::WiFiConnect.Password(); }
+        private object Activate_4_WiFiList() { return new global::WiFiConnect.WiFiList(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -262,9 +265,16 @@ namespace WiFiConnect.WiFiConnect_XamlTypeInfo
                 xamlType = new global::WiFiConnect.WiFiConnect_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  WiFiConnect.WiFiList
+            case 3:   //  WiFiConnect.Password
                 userType = new global::WiFiConnect.WiFiConnect_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_WiFiList;
+                userType.Activator = Activate_3_Password;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  WiFiConnect.WiFiList
+                userType = new global::WiFiConnect.WiFiConnect_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_WiFiList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
