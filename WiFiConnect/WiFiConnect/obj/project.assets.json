@@ -2205,6 +2205,19 @@
             "rid": "aot"
           }
         }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-arm": {
@@ -4500,6 +4513,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
         }
       }
     },
@@ -6833,6 +6859,19 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-arm64-aot": {
@@ -8750,6 +8789,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
         }
       }
     },
@@ -11055,6 +11107,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
         }
       }
     },
@@ -13397,6 +13462,19 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-x86": {
@@ -15701,6 +15779,19 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
         }
       }
     },
@@ -18042,6 +18133,19 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/UAP10/ZXingNetMobile.dll": {},
+          "lib/UAP10/zxing.portable.dll": {}
         }
       }
     }
@@ -27479,11 +27583,35 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
+    },
+    "ZXing.Net.Mobile/2.4.1": {
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.4.1",
+      "files": [
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid71/ZXingNetMobile.dll",
+        "lib/MonoAndroid71/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll",
+        "lib/netstandard1.0/ZXingNetMobile.dll",
+        "lib/netstandard1.0/zxing.portable.dll",
+        "zxing.net.mobile.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.4"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.4",
+      "ZXing.Net.Mobile >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -27526,6 +27654,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.4, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           }
         }
       }

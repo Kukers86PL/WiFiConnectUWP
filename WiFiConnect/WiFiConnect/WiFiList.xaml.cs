@@ -34,22 +34,11 @@ namespace WiFiConnect
         private async void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             WiFiListView.Items.Clear();
-            var access = await WiFiAdapter.RequestAccessAsync();
-            if (access != WiFiAccessStatus.Allowed)
+            WiFiListView.Items.Add("Known WiFi's:");
+            
+            foreach (var availableNetwork in await WiFi.GetConfiguredNetworks())
             {
-                throw new Exception("WiFiAccessStatus not allowed");
-            }
-            else
-            {
-                var result = await Windows.Devices.Enumeration.DeviceInformation.FindAllAsync(WiFiAdapter.GetDeviceSelector());
-                if (result.Count >= 1)
-                {
-                    WiFiAdapter firstAdapter = await WiFiAdapter.FromIdAsync(result[0].Id);
-                    foreach (var availableNetwork in firstAdapter.NetworkReport.AvailableNetworks)
-                    {
-                        WiFiListView.Items.Add(availableNetwork.Ssid);
-                    }
-                }
+                WiFiListView.Items.Add(availableNetwork.Ssid);
             }
         }
 

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F705CE8115FEDADDE4C199090A275FA9ACED53B99938FEEFA281C27BA0B3E9AA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>B55D23780B7D365A9E7858BCF18688BFA262694CC492355897EA179CB710D3D4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>471d1750-413e-4908-a76b-c9ab59d19ff3_1.0.0.0_x86__0mjf9ys29jc64</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>471d1750-413e-4908-a76b-c9ab59d19ff3_0mjf9ys29jc64!App</RegisteredUserModeAppID>
     <RegisteredPackageID>471d1750-413e-4908-a76b-c9ab59d19ff3</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-31T19:56:21.073</Modified>
+      <Modified>2018-06-01T05:50:02.237</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\WiFiConnect.exe">
       <PackagePath>entrypoint\WiFiConnect.exe</PackagePath>
-      <Modified>2018-05-31T19:56:20.734</Modified>
+      <Modified>2018-06-01T05:50:01.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,6 +495,18 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lukas\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXing.Net.Mobile.Core.dll">
+      <PackagePath>ZXing.Net.Mobile.Core.dll</PackagePath>
+      <Modified>2018-04-04T05:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lukas\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXingNetMobile.dll">
+      <PackagePath>ZXingNetMobile.dll</PackagePath>
+      <Modified>2018-04-04T05:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lukas\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\zxing.portable.dll">
+      <PackagePath>zxing.portable.dll</PackagePath>
+      <Modified>2018-04-04T05:26:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-05-31T05:33:41.117</Modified>
@@ -539,32 +551,36 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-05-31T19:56:20.592</Modified>
+      <Modified>2018-06-01T05:50:01.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-05-31T19:56:20.593</Modified>
+      <Modified>2018-06-01T05:50:01.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\Password.xbf">
       <PackagePath>Password.xbf</PackagePath>
-      <Modified>2018-05-31T19:56:20.594</Modified>
+      <Modified>2018-06-01T05:50:01.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\WiFiList.xbf">
       <PackagePath>WiFiList.xbf</PackagePath>
-      <Modified>2018-05-31T19:56:20.594</Modified>
+      <Modified>2018-06-01T05:50:01.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T20:01:52.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lukas\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
+      <PackagePath>ZXingNetMobile\ZXingNetMobile.xr.xml</PackagePath>
+      <Modified>2018-04-04T05:26:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-31T19:51:30.884</Modified>
+      <Modified>2018-06-01T05:36:37.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\Core\WiFiConnect.exe">
       <PackagePath>WiFiConnect.exe</PackagePath>
-      <Modified>2018-05-31T19:56:21.071</Modified>
+      <Modified>2018-06-01T05:50:02.235</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
