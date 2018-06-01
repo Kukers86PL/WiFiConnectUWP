@@ -37,6 +37,7 @@ public class WiFi
             if (result.Count >= 1)
             {
                 WiFiAdapter firstAdapter = await WiFiAdapter.FromIdAsync(result[0].Id);
+                await firstAdapter.ScanAsync();
                 return firstAdapter.NetworkReport.AvailableNetworks;
             }
         }
