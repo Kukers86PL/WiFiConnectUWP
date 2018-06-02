@@ -44,12 +44,13 @@ namespace WiFiConnect
 
         private async void WiFiListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            String SSID = (String) WiFiListView.SelectedValue;
             CoreApplicationView newView = CoreApplication.CreateNewView();
             int newViewId = 0;
             await newView.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 Frame frame = new Frame();
-                frame.Navigate(typeof(Password), null);
+                frame.Navigate(typeof(Password), SSID);
                 Window.Current.Content = frame;
                 Window.Current.Activate();
 

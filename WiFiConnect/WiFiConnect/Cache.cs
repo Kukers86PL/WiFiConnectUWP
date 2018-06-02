@@ -8,9 +8,9 @@ public class Cache
     static private async void WriteToCache(String toWrite)
     {
         Windows.Storage.StorageFolder storageFolder =
-        Windows.Storage.ApplicationData.Current.LocalFolder;
+            Windows.Storage.ApplicationData.Current.LocalFolder;
         Windows.Storage.StorageFile cacheFile =
-            await storageFolder.CreateFileAsync(CACHE_FILE_NAME, Windows.Storage.CreationCollisionOption.ReplaceExisting);
+            await storageFolder.CreateFileAsync(CACHE_FILE_NAME, Windows.Storage.CreationCollisionOption.OpenIfExists);
 
         await Windows.Storage.FileIO.WriteTextAsync(cacheFile, toWrite);
     }
@@ -18,9 +18,9 @@ public class Cache
     static private async Task<String> ReadFromCache()
     {
         Windows.Storage.StorageFolder storageFolder =
-        Windows.Storage.ApplicationData.Current.LocalFolder;
+            Windows.Storage.ApplicationData.Current.LocalFolder;
         Windows.Storage.StorageFile cacheFile =
-            await storageFolder.GetFileAsync(CACHE_FILE_NAME);
+            await storageFolder.CreateFileAsync(CACHE_FILE_NAME, Windows.Storage.CreationCollisionOption.OpenIfExists);
         return await Windows.Storage.FileIO.ReadTextAsync(cacheFile);
     }
 
@@ -41,10 +41,26 @@ public class Cache
                 int index2 = fromRead.IndexOf("*", (index1 + lookForSSID.Length));
                 if (index2 != -1)
                 {
-                    toWrite = fromRead.Substring(0, index1) + "*" + SSID + "*" + Pass + "*" + fromRead.Substring(index2, fromRead.Length);
+                    toWrite = fromRead.Substring(0, index1) + "*" + SSID + "*" + Pass + "*" + fromRead.Substring(index2, fromRead.Length - index2);
                 }
             }
         }
         WriteToCache(toWrite);
+    }
+
+    static public async Task<String> GetPassFromCache(String SSID)
+    {
+        String fromRead = await ReadFromCache();
+        String lookForSSID = "*" + SSID + "*";
+        int index1 = fromRead.IndexOf(lookForSSID);
+        if ((index1 != -1) && ((fromRead.Length - index1 + lookForSSID.Length) > 0))
+        {
+            int index2 = fromRead.IndexOf("*", index1 + lookForSSID.Length);
+            if (index2 != -1)
+            {
+                return fromRead.Substring((index1 + lookForSSID.Length), index2 - (index1 + lookForSSID.Length));
+            }
+        }
+        return "";
     }
 }

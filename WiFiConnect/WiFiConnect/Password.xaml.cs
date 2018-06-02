@@ -22,6 +22,8 @@ namespace WiFiConnect
     /// </summary>
     public sealed partial class Password : Page
     {
+        private String SSID = "";
+
         public Password()
         {
             this.InitializeComponent();
@@ -35,6 +37,30 @@ namespace WiFiConnect
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Window.Current.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            String Pass = PassBox.Password;
+            Cache.SaveToCache(SSID, Pass);
+        }
+
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+
+            SSID = (String)e.Parameter;
+            PassBox.Password = await Cache.GetPassFromCache(SSID);
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Page_GotFocus(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
