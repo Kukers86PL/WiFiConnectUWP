@@ -8,7 +8,7 @@ public class QRBuilderParser
 {
     public static String INIT_STRING = "*WiFiConnect*0*";
 
-    static private WriteableBitmap EncodeAsBitmap(String str)
+    static public WriteableBitmap EncodeAsBitmap(String str)
     {
         var options = new QrCodeEncodingOptions()
         {
@@ -24,9 +24,9 @@ public class QRBuilderParser
         return writer.Write(str);
     }
 
-    static public WriteableBitmap BuildQR(String SSID, String pass)
+    static public String BuildQR(String SSID, String pass)
     {
-        return EncodeAsBitmap(INIT_STRING + SSID + "*" + pass + "*");
+        return INIT_STRING + SSID + "*" + pass + "*";
     }
 
     static private String ParseSSID(String QR)

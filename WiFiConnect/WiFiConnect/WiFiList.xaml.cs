@@ -26,6 +26,8 @@ namespace WiFiConnect
     /// </summary>
     public sealed partial class WiFiList : Page
     {
+        public static String FIRST_LINE = "Known WiFi's:";
+
         public WiFiList()
         {
             this.InitializeComponent();
@@ -34,7 +36,7 @@ namespace WiFiConnect
         private async void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             WiFiListView.Items.Clear();
-            WiFiListView.Items.Add("Known WiFi's:");
+            WiFiListView.Items.Add(FIRST_LINE);
             
             foreach (var availableNetwork in await WiFi.GetConfiguredNetworks())
             {
@@ -45,18 +47,21 @@ namespace WiFiConnect
         private async void WiFiListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             String SSID = (String) WiFiListView.SelectedValue;
-            CoreApplicationView newView = CoreApplication.CreateNewView();
-            int newViewId = 0;
-            await newView.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            if (SSID != FIRST_LINE)
             {
-                Frame frame = new Frame();
-                frame.Navigate(typeof(Password), SSID);
-                Window.Current.Content = frame;
-                Window.Current.Activate();
+                CoreApplicationView newView = CoreApplication.CreateNewView();
+                int newViewId = 0;
+                await newView.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                {
+                    Frame frame = new Frame();
+                    frame.Navigate(typeof(Password), SSID);
+                    Window.Current.Content = frame;
+                    Window.Current.Activate();
 
-                newViewId = ApplicationView.GetForCurrentView().Id;
-            });
-            bool viewShown = await ApplicationViewSwitcher.TryShowAsStandaloneAsync(newViewId);
+                    newViewId = ApplicationView.GetForCurrentView().Id;
+                });
+                bool viewShown = await ApplicationViewSwitcher.TryShowAsStandaloneAsync(newViewId);
+            }
         }
     }
 }
