@@ -28,7 +28,6 @@ namespace WiFiConnect
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        UIElement customOverlayElement = null;
         MobileBarcodeScanner scanner;
 
         public MainPage()
