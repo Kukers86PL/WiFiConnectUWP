@@ -31,6 +31,7 @@
   <Capabilities>
     <Capability Name="internetClient" />
     <DeviceCapability Name="wifiControl" />
+    <DeviceCapability Name="webcam" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />

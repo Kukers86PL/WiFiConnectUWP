@@ -16,7 +16,18 @@ public class WiFi
             {
                 WiFiAdapter firstAdapter = await WiFiAdapter.FromIdAsync(result[0].Id);
 
-                await firstAdapter.ConnectAsync(null, WiFiReconnectionKind.Automatic, new PasswordCredential("", "", Pass), SSID);
+                foreach (var availableNetwork in await WiFi.GetConfiguredNetworks())
+                {
+                    if (availableNetwork.Ssid == SSID)
+                    {
+                        var credential = new PasswordCredential();
+                        credential.Password = Pass;
+
+                        await firstAdapter.ConnectAsync(availableNetwork, WiFiReconnectionKind.Automatic, credential);
+
+                        break;
+                    }
+                }
             }
         }
     }
@@ -30,6 +41,7 @@ public class WiFi
             if (result.Count >= 1)
             {
                 WiFiAdapter firstAdapter = await WiFiAdapter.FromIdAsync(result[0].Id);
+                await firstAdapter.ScanAsync();
                 return firstAdapter.NetworkReport.AvailableNetworks;
             }
         }

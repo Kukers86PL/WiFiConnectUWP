@@ -29,7 +29,7 @@ public class QRBuilderParser
         return INIT_STRING + SSID + "*" + pass + "*";
     }
 
-    static private String ParseSSID(String QR)
+    static public String ParseSSID(String QR)
     {
         if (QR.Length >= INIT_STRING.Length)
         {
@@ -41,7 +41,7 @@ public class QRBuilderParser
                     int index = QR.IndexOf("*", INIT_STRING.Length);
                     if (index != -1)
                     {
-                        return QR.Substring(INIT_STRING.Length, index);
+                        return QR.Substring(INIT_STRING.Length, index - INIT_STRING.Length);
                     }
                 }
             }
@@ -50,7 +50,7 @@ public class QRBuilderParser
         return "";
     }
 
-    static private String ParsePass(String QR)
+    static public String ParsePass(String QR)
     {
         if (QR.Length >= INIT_STRING.Length)
         {
@@ -65,7 +65,7 @@ public class QRBuilderParser
                         int index2 = QR.IndexOf("*", index1 + 1);
                         if (index2 != -1)
                         {
-                            return QR.Substring(index1 + 1, index2);
+                            return QR.Substring(index1 + 1, index2 - index1 - 1);
                         }
                     }
                 }

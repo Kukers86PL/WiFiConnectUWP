@@ -17,7 +17,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Button x:ConnectionId='2' x:Name="GenerateQR" Content="Generate QR" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="150" Height="50" Grid.Row="0" Grid.Column="0"                         />
-        <Button x:ConnectionId='3' x:Name="ScanQR" Content="Scan QR" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="150" Height="50" Grid.Row="1" Grid.Column="0"/>
+        <Button x:ConnectionId='3' x:Name="ScanQR" Content="Scan QR" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="150" Height="50" Grid.Row="1" Grid.Column="0"                     />
     </Grid>
 </Page>
 
