@@ -228,7 +228,6 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\resources.en-us.r
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\resources.en-us.resfiles.intermediate
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\ZXingNetMobile.pri.xml
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\ProjectArchitectures.txt
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\WiFiConnect.csprojAssemblyReference.cache
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\QR.xbf
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\QR.g.i.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\QR.g.cs
