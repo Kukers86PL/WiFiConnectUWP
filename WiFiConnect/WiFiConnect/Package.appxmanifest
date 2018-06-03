@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="471d1750-413e-4908-a76b-c9ab59d19ff3" Publisher="CN=lukas" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="471d1750-413e-4908-a76b-c9ab59d19ff3" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="39418ukaszGrzelak.WiFiConnectUWP" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.1.0" />
+  <mp:PhoneIdentity PhoneProductId="17f1e4aa-3bff-4650-b091-493c78d912b2" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>WiFiConnect</DisplayName>
-    <PublisherDisplayName>lukas</PublisherDisplayName>
+    <DisplayName>WiFiConnectUWP</DisplayName>
+    <PublisherDisplayName>Łukasz Grzelak</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="WiFiConnect.App">
-      <uap:VisualElements DisplayName="WiFiConnect" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="WiFiConnect" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="WiFiConnectUWP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="WiFiConnect" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
@@ -24,7 +24,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
-    <DeviceCapability Name="wifiControl" />
     <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="wifiControl" />
   </Capabilities>
 </Package>

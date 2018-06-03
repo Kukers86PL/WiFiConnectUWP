@@ -233,3 +233,4 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\QR.g.i.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\QR.g.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\QR.xaml
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\QR.xbf
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\WiFiConnect.csprojAssemblyReference.cache

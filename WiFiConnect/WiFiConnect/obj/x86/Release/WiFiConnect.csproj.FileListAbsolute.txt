@@ -8,7 +8,6 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\WiFiConnect.pdb
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\resources.pri
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\AppxManifest.xml
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\Adapters.g.cs
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\App.xbf
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\AssemblyInfo.g.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png
@@ -22,8 +21,6 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\Data.g.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\DotNetNative.debugger-services-def.json
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\Helpers.g.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\ImplTypes.g.cs
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\MainPage.xbf
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\Password.xbf
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\PInvoke.g.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\resources.pri
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\SafeTypes.g.cs
@@ -32,7 +29,6 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\WiFiConnect
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\WiFiConnect.exe
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\WiFiConnect.pdb
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\WiFiConnect.xr.xml
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\WiFiList.xbf
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\ilc\ZXingNetMobile\ZXingNetMobile.xr.xml
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\WiFiConnect.build.appxrecipe
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\Microsoft.CSharp.dll
@@ -317,10 +313,6 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\Assets\S
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\Assets\StoreLogo.png
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\Assets\Wide310x150Logo.scale-200.png
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\App.xbf
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\MainPage.xbf
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\Password.xbf
-D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\in\WiFiList.xbf
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc.WiFiConnect.rsp
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.rc
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.res
@@ -453,3 +445,10 @@ D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\intermediat
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\intermediate\WiFiConnect.McgInterop\PInvoke.g.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\intermediate\WiFiConnect.McgInterop\SafeTypes.g.cs
 D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\ilc\intermediate\WiFiConnect.McgInterop\SharedStubs.g.cs
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\QR.xbf
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\Upload\WiFiConnect.build.appxrecipe
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\WiFiConnect.csprojAssemblyReference.cache
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\QR.g.i.cs
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\QR.g.cs
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\QR.xaml
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Release\QR.xbf

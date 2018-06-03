@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>471d1750-413e-4908-a76b-c9ab59d19ff3</PackageIdentityName>
-    <PackageIdentityPublisher>CN=lukas</PackageIdentityPublisher>
+    <PackageIdentityName>17f1e4aa-3bff-4650-b091-493c78d912b2</PackageIdentityName>
+    <PackageIdentityPublisher>CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>

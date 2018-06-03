@@ -10917,6 +10917,17 @@ namespace Windows.Devices.WiFi
 		public static partial class Stubs
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.Foundation.IAsyncAction ScanAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncAction __ret = global::__Interop.ForwardComStubs.Stub_5<global::Windows.Devices.WiFi.IWiFiAdapter, global::Windows.Foundation.IAsyncAction>(
+									__this, 
+									7
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			public static global::Windows.Devices.WiFi.WiFiNetworkReport get_NetworkReport(global::System.__ComObject __this)
 			{
 				global::Windows.Devices.WiFi.WiFiNetworkReport __ret = global::__Interop.ForwardComStubs.Stub_5<global::Windows.Devices.WiFi.IWiFiAdapter, global::Windows.Devices.WiFi.WiFiNetworkReport>(
@@ -10927,19 +10938,17 @@ namespace Windows.Devices.WiFi
 				return __ret;
 			}
 
-			// Signature, Windows.Devices.WiFi.IWiFiAdapter.ConnectAsync, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTClassMarshaller] Windows_Devices_WiFi_WiFiAvailableNetwork__Windows_Devices_WiFi__WiFiAvailableNetwork *, [fwd] [in] [Mcg.CodeGen.EnumMarshaller]  -> int, [fwd] [in] [Mcg.CodeGen.WinRTClassMarshaller] Windows_Security_Credentials_PasswordCredential__Windows_Security_Credentials__PasswordCredential *, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.ComInterfaceMarshaller] Windows_Foundation_IAsyncOperation_1_Windows_Devices_WiFi_WiFiConnectionResult___Windows_Foundation__IAsyncOperation_A__w_Devices_WiFi_WiFiConnectionResult_V_ *, 
+			// Signature, Windows.Devices.WiFi.IWiFiAdapter.ConnectAsync, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTClassMarshaller] Windows_Devices_WiFi_WiFiAvailableNetwork__Windows_Devices_WiFi__WiFiAvailableNetwork *, [fwd] [in] [Mcg.CodeGen.EnumMarshaller]  -> int, [fwd] [in] [Mcg.CodeGen.WinRTClassMarshaller] Windows_Security_Credentials_PasswordCredential__Windows_Security_Credentials__PasswordCredential *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.ComInterfaceMarshaller] Windows_Foundation_IAsyncOperation_1_Windows_Devices_WiFi_WiFiConnectionResult___Windows_Foundation__IAsyncOperation_A__w_Devices_WiFi_WiFiConnectionResult_V_ *, 
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.WiFi.WiFiConnectionResult> ConnectAsync(
 						global::System.__ComObject __this, 
 						global::Windows.Devices.WiFi.WiFiAvailableNetwork availableNetwork, 
 						global::Windows.Devices.WiFi.WiFiReconnectionKind reconnectionKind, 
-						global::Windows.Security.Credentials.PasswordCredential passwordCredential, 
-						string ssid)
+						global::Windows.Security.Credentials.PasswordCredential passwordCredential)
 			{
 				// Setup
 				void* unsafe_availableNetwork = default(void*);
 				void* unsafe_passwordCredential = default(void*);
-				global::System.Runtime.InteropServices.HSTRING unsafe_ssid = default(global::System.Runtime.InteropServices.HSTRING);
 				void* unsafe_value__retval = default(void*);
 				global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.WiFi.WiFiConnectionResult> value__retval = default(global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.WiFi.WiFiConnectionResult>);
 				int unsafe___hr;
@@ -10954,28 +10963,22 @@ namespace Windows.Devices.WiFi
 										passwordCredential, 
 										typeof(global::Windows.Security.Credentials.PasswordCredential).TypeHandle
 									);
-					fixed (char* pBuffer_ssid = ssid)
-					{
-						global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_ssid;
-						global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_ssid, ssid, &(hstring_header_ssid), &(unsafe_ssid));
-						unsafe_value__retval = null;
-						// Call to native method
-						unsafe___hr = global::__Interop.ComCallHelpers.Call(
-											__this, 
-											typeof(global::Windows.Devices.WiFi.IWiFiAdapter).TypeHandle, 
-											13, 
-											unsafe_availableNetwork, 
-											((int)reconnectionKind), 
-											unsafe_passwordCredential, 
-											unsafe_ssid, 
-											&(unsafe_value__retval)
-										);
-						global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-						value__retval = (global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.WiFi.WiFiConnectionResult>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-											((global::System.IntPtr)unsafe_value__retval), 
-											typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.WiFi.WiFiConnectionResult>).TypeHandle
-										);
-					}
+					unsafe_value__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.Devices.WiFi.IWiFiAdapter).TypeHandle, 
+										12, 
+										unsafe_availableNetwork, 
+										((int)reconnectionKind), 
+										unsafe_passwordCredential, 
+										&(unsafe_value__retval)
+									);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					value__retval = (global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.WiFi.WiFiConnectionResult>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_value__retval), 
+										typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.WiFi.WiFiConnectionResult>).TypeHandle
+									);
 					// Return
 					return value__retval;
 				}
@@ -25616,57 +25619,23 @@ namespace Windows.Media.MediaProperties
 
 namespace Windows.Security.Credentials
 {
-	// Windows.Security.Credentials.ICredentialFactory
-	public unsafe static class ICredentialFactory__Impl
+	// Windows.Security.Credentials.IPasswordCredential
+	public unsafe static class IPasswordCredential__Impl
 	{
-		// StubClass for 'Windows.Security.Credentials.ICredentialFactory'
+		// StubClass for 'Windows.Security.Credentials.IPasswordCredential'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Security.Credentials.ICredentialFactory.CreatePasswordCredential, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static global::System.IntPtr CreatePasswordCredential(
+			public static void put_Password(
 						global::System.__ComObject __this, 
-						string resource, 
-						string userName, 
 						string password)
 			{
-				// Setup
-				global::System.Runtime.InteropServices.HSTRING unsafe_resource = default(global::System.Runtime.InteropServices.HSTRING);
-				global::System.Runtime.InteropServices.HSTRING unsafe_userName = default(global::System.Runtime.InteropServices.HSTRING);
-				global::System.Runtime.InteropServices.HSTRING unsafe_password = default(global::System.Runtime.InteropServices.HSTRING);
-				global::System.IntPtr unsafe_credential__retval;
-				global::System.IntPtr credential__retval;
-				int unsafe___hr;
-				// Marshalling
-				fixed (char* pBuffer_resource = resource)
-				{
-					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_resource;
-					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_resource, resource, &(hstring_header_resource), &(unsafe_resource));
-					fixed (char* pBuffer_userName = userName)
-					{
-						global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_userName;
-						global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_userName, userName, &(hstring_header_userName), &(unsafe_userName));
-						fixed (char* pBuffer_password = password)
-						{
-							global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_password;
-							global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_password, password, &(hstring_header_password), &(unsafe_password));
-							// Call to native method
-							unsafe___hr = global::__Interop.ComCallHelpers.Call(
-												__this, 
-												typeof(global::Windows.Security.Credentials.ICredentialFactory).TypeHandle, 
-												6, 
-												unsafe_resource, 
-												unsafe_userName, 
-												unsafe_password, 
-												&(unsafe_credential__retval)
-											);
-							global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-							credential__retval = unsafe_credential__retval;
-						}
-					}
-				}
-				// Return
-				return credential__retval;
+				global::__Interop.ForwardComStubs.Stub_36<global::Windows.Security.Credentials.IPasswordCredential>(
+									__this, 
+									password, 
+									11
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			}
 		}
 	}
@@ -30052,6 +30021,90 @@ namespace Windows.UI.Xaml
 				[global::System.Runtime.CompilerServices.MethodAddrFixup(12, typeof(global::Windows.UI.Xaml.DependencyPropertyChangedEventHandler__Impl.Vtbl), "Invoke__n")]
 				[global::System.Runtime.CompilerServices.NonArray]
 				static readonly byte[] RVA_Windows_UI_Xaml_DependencyPropertyChangedEventHandler__Impl_Vtbl_s_staticVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.ExceptionRoutedEventHandler
+	public unsafe static class ExceptionRoutedEventHandler__Impl
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					object sender, 
+					global::Windows.UI.Xaml.ExceptionRoutedEventArgs e)
+		{
+			global::__Interop.ForwardComStubs.Stub_16<global::Windows.UI.Xaml.ExceptionRoutedEventHandler, global::Windows.UI.Xaml.ExceptionRoutedEventArgs>(
+								__this, 
+								sender, 
+								e, 
+								3
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		// v-table for 'Windows.UI.Xaml.ExceptionRoutedEventHandler'
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.UI.Xaml.ExceptionRoutedEventHandler))]
+		internal unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			// Windows_UI_Xaml__ExceptionRoutedEventHandler
+			global::System.IntPtr pfnInvoke_;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_UI_Xaml_ExceptionRoutedEventHandler__Impl_Vtbl_s_staticVtable")]
+			static global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl s_staticVtable
+			#if false
+			 = new global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl() {
+				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnInvoke_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl.Invoke__n),
+			}
+			#endif
+			;
+			static global::System.IntPtr s_cachedVtable;
+			internal static global::System.IntPtr GetVtbl()
+			{
+				fixed (void* pVtbl = &(global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl.s_staticVtable))
+					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
+										pVtbl, 
+										ref global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl.s_cachedVtable, 
+										sizeof(global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl)
+									);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int Invoke__n(
+						global::System.IntPtr pComThis, 
+						void* unsafe_sender, 
+						void* unsafe_e)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.UI.Xaml.ExceptionRoutedEventHandler>(
+									__this, 
+									0
+								);
+				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_5<global::Windows.UI.Xaml.ExceptionRoutedEventArgs>(
+									__this, 
+									unsafe_sender, 
+									unsafe_e, 
+									__methodPtr
+								));
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			private static class Vtbl__McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(4, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(12, typeof(global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl), "Invoke__n")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_UI_Xaml_ExceptionRoutedEventHandler__Impl_Vtbl_s_staticVtable = new byte[] {
 						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 			}
 		}
@@ -35151,6 +35204,105 @@ namespace Windows.UI.Xaml.Controls
 									__this, 
 									token, 
 									7
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IImage
+	public unsafe static class IImage__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IImage'
+		public static partial class Stubs
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void put_Source(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Media.ImageSource value)
+			{
+				global::__Interop.ForwardComStubs.Stub_23<global::Windows.UI.Xaml.Controls.IImage, global::Windows.UI.Xaml.Media.ImageSource>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			// Signature, Windows.UI.Xaml.Controls.IImage.add_ImageFailed, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_UI_Xaml_ExceptionRoutedEventHandler__Windows_UI_Xaml__ExceptionRoutedEventHandler *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ImageFailed(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.ExceptionRoutedEventHandler value)
+			{
+				// Setup
+				void* unsafe_value = default(void*);
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_token__retval;
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token__retval;
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_value = (void*)global::System.Runtime.InteropServices.McgMarshal.DelegateToComInterface(
+										value, 
+										typeof(global::Windows.UI.Xaml.ExceptionRoutedEventHandler).TypeHandle
+									);
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.Controls.IImage).TypeHandle, 
+										13, 
+										unsafe_value, 
+										&(unsafe_token__retval)
+									);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					token__retval = unsafe_token__retval;
+					// Return
+					return token__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value)));
+				}
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void remove_ImageFailed(
+						global::System.__ComObject __this, 
+						global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+			{
+				global::__Interop.ForwardComStubs.Stub_12<global::Windows.UI.Xaml.Controls.IImage>(
+									__this, 
+									token, 
+									14
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ImageOpened(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.RoutedEventHandler value)
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::__Interop.ForwardComStubs.Stub_13<global::Windows.UI.Xaml.Controls.IImage>(
+									__this, 
+									value, 
+									15
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void remove_ImageOpened(
+						global::System.__ComObject __this, 
+						global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+			{
+				global::__Interop.ForwardComStubs.Stub_12<global::Windows.UI.Xaml.Controls.IImage>(
+									__this, 
+									token, 
+									16
 								);
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			}

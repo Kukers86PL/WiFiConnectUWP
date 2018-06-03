@@ -1,0 +1,1 @@
+D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\WiFiConnect.csproj;x64
