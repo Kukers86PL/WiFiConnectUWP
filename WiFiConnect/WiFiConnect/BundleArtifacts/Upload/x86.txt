@@ -1,2 +1,0 @@
-MainPackage=D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\Upload\WiFiConnect_1.1.2.0_x86.appx
-SymbolPackage=D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Release\Upload\WiFiConnect_1.1.2.0\WiFiConnect_1.1.2.0_x86.appxsym
