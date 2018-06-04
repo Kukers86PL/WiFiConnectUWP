@@ -7,7 +7,7 @@
 
     Po więcej informacji o plikach manifestu pakietów, zobacz http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="39418ukaszGrzelak.WiFiConnectUWP" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.1.0" ProcessorArchitecture="x64" />
+  <Identity Name="39418ukaszGrzelak.WiFiConnectUWP" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.2.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="17f1e4aa-3bff-4650-b091-493c78d912b2" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WiFiConnectUWP</DisplayName>

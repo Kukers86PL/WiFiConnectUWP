@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-03T12:45:56.841</Modified>
+      <Modified>2018-06-04T07:37:39.439</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\WiFiConnect.exe">
       <PackagePath>entrypoint\WiFiConnect.exe</PackagePath>
-      <Modified>2018-06-03T12:45:55.558</Modified>
+      <Modified>2018-06-04T07:37:38.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -547,27 +547,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\WiFiConnect.xr.xml">
       <PackagePath>WiFiConnect.xr.xml</PackagePath>
-      <Modified>2018-06-03T07:11:59.883</Modified>
+      <Modified>2018-06-04T07:36:55.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-06-03T12:45:55.367</Modified>
+      <Modified>2018-06-04T07:37:38.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-06-03T12:45:55.368</Modified>
+      <Modified>2018-06-04T07:37:38.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\Password.xbf">
       <PackagePath>Password.xbf</PackagePath>
-      <Modified>2018-06-03T12:45:55.369</Modified>
+      <Modified>2018-06-04T07:37:38.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\QR.xbf">
       <PackagePath>QR.xbf</PackagePath>
-      <Modified>2018-06-03T12:45:55.370</Modified>
+      <Modified>2018-06-04T07:37:38.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\WiFiList.xbf">
       <PackagePath>WiFiList.xbf</PackagePath>
-      <Modified>2018-06-03T12:45:55.371</Modified>
+      <Modified>2018-06-04T07:37:38.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -580,11 +580,11 @@
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-03T12:45:56.305</Modified>
+      <Modified>2018-06-03T18:52:17.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\WiFiConnectUWP\WiFiConnect\WiFiConnect\bin\x86\Debug\Core\WiFiConnect.exe">
       <PackagePath>WiFiConnect.exe</PackagePath>
-      <Modified>2018-06-03T12:45:56.836</Modified>
+      <Modified>2018-06-04T07:37:39.435</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

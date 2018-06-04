@@ -7019,6 +7019,8 @@ Dynamic,Method,"System.Boolean System.Delegate.op_Equality(System.Delegate d1, S
 Dynamic,Method,"System.Boolean System.Delegate.op_Inequality(System.Delegate d1, System.Delegate d2)"
 Dynamic,Method,"System.Object System.Delegate.Target.get()"
 Dynamic,Method,"System.Void Windows.UI.Xaml.Controls.Control..ctor()"
+Dynamic,Method,"System.Double Windows.UI.Xaml.Controls.Control.FontSize.get()"
+Dynamic,Method,"System.Void Windows.UI.Xaml.Controls.Control.put_FontSize(System.Double value)"
 Dynamic,Method,"Windows.UI.Xaml.Media.Brush Windows.UI.Xaml.Controls.Control.Background.get()"
 Dynamic,Method,"System.Void Windows.UI.Xaml.Controls.Control.put_Background(Windows.UI.Xaml.Media.Brush value)"
 Dynamic,Method,"System.Void Windows.UI.Xaml.Controls.Control.OnPointerEntered(Windows.UI.Xaml.Input.PointerRoutedEventArgs e)"

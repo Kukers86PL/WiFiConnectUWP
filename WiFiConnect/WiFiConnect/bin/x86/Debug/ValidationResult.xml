@@ -1,141 +1,141 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="pl-PL" OVERALL_RESULT="PASS" VERSION="10.0.17134.12" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" APP_NAME="" APP_VERSION="" OSVERSION="10.0.17134.0" OS="Microsoft Windows 10 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1045" X64_ONLY="FALSE" VALIDATION_TYPE="UI" ReportGenerationTime="03.06.2018 14:28:02" ID="069d2c1b695450327b5fd6458417873b">
+<REPORT xml:lang="pl-PL" OVERALL_RESULT="PASS" VERSION="10.0.17134.12" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" APP_NAME="" APP_VERSION="" OSVERSION="10.0.17134.0" OS="Microsoft Windows 10 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1045" X64_ONLY="FALSE" VALIDATION_TYPE="UI" ReportGenerationTime="04.06.2018 09:43:13" ID="6c1c80ae46218de5a513657630c2a71f">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="10" TITLE="Testy wdrożenia i uruchamiania" RATIONALE="Błędy aplikacji, takie jak awarie czy zawieszenia, znacznie utrudniają pracę użytkowników i stanowią źródło ich frustracji. Wyeliminowanie tych błędów zwiększa stabilność i niezawodność aplikacji oraz podnosi ogólny komfort jej użytkowania.">
-      <TEST INDEX="50" NAME="Generowanie bytecode" DESCRIPTION="Generowanie bytecode powinno przebiegać poprawnie w przypadku pakietów zawierających aplikację HTML5 Sklepu Windows." EXECUTIONTIME="00h:00m:02s.09ms" OPTIONAL="FALSE">
+      <TEST INDEX="50" NAME="Generowanie bytecode" DESCRIPTION="Generowanie bytecode powinno przebiegać poprawnie w przypadku pakietów zawierających aplikację HTML5 Sklepu Windows." EXECUTIONTIME="00h:00m:01s.04ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="79" NAME="Obsługa anulowania zadań tła" DESCRIPTION="Aplikacja powinna zawierać implementację obsługi zdarzeń w celu obsługi żądania anulowania zadania tła." EXECUTIONTIME="00h:00m:43s.93ms" OPTIONAL="FALSE">
+      <TEST INDEX="79" NAME="Obsługa anulowania zadań tła" DESCRIPTION="Aplikacja powinna zawierać implementację obsługi zdarzeń w celu obsługi żądania anulowania zadania tła." EXECUTIONTIME="00h:00m:22s.57ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="81" NAME="Uruchamianie wersji platformy" DESCRIPTION="Aplikacja nie może nieprawidłowo używać interfejsu API OSVersionInfo w celu udostępniania użytkownikom funkcji specyficznych dla systemu operacyjnego." EXECUTIONTIME="00h:00m:39s.99ms" OPTIONAL="FALSE">
+      <TEST INDEX="81" NAME="Uruchamianie wersji platformy" DESCRIPTION="Aplikacja nie może nieprawidłowo używać interfejsu API OSVersionInfo w celu udostępniania użytkownikom funkcji specyficznych dla systemu operacyjnego." EXECUTIONTIME="00h:00m:20s.07ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="47" NAME="Uruchamianie aplikacji" DESCRIPTION="Testy uruchamiania aplikacji." EXECUTIONTIME="00h:00m:39s.09ms" OPTIONAL="FALSE">
+      <TEST INDEX="47" NAME="Uruchamianie aplikacji" DESCRIPTION="Testy uruchamiania aplikacji." EXECUTIONTIME="00h:00m:19s.52ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="21" NAME="Awarie i zawieszanie się systemu" DESCRIPTION="Podczas testowania komponenty nie mogą się zawieszać ani ulegać awarii." EXECUTIONTIME="00h:00m:06s.89ms" OPTIONAL="FALSE">
+      <TEST INDEX="21" NAME="Awarie i zawieszanie się systemu" DESCRIPTION="Podczas testowania komponenty nie mogą się zawieszać ani ulegać awarii." EXECUTIONTIME="00h:00m:03s.39ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Test zgodności pakietu" RATIONALE="Manifest pakietu nie zawierał co najmniej jednego wymaganego atrybutu.">
-      <TEST INDEX="77" NAME="Liczba aplikacji" DESCRIPTION="Jeden pakiet nie może definiować więcej niż jednej aplikacji w manifeście." EXECUTIONTIME="00h:00m:02s.07ms" OPTIONAL="FALSE">
+      <TEST INDEX="77" NAME="Liczba aplikacji" DESCRIPTION="Jeden pakiet nie może definiować więcej niż jednej aplikacji w manifeście." EXECUTIONTIME="00h:00m:01s.02ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="Manifest aplikacji" DESCRIPTION="Manifest aplikacji musi zawierać prawidłowe wpisy dla wszystkich wymaganych pól." EXECUTIONTIME="00h:00m:04s.28ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="Manifest aplikacji" DESCRIPTION="Manifest aplikacji musi zawierać prawidłowe wpisy dla wszystkich wymaganych pól." EXECUTIONTIME="00h:00m:02s.09ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="74" NAME="Manifest zbioru" DESCRIPTION="Manifest zbioru musi zawierać prawidłowe wpisy dla wszystkich wymaganych pól." EXECUTIONTIME="00h:00m:03s.43ms" OPTIONAL="FALSE">
+      <TEST INDEX="74" NAME="Manifest zbioru" DESCRIPTION="Manifest zbioru musi zawierać prawidłowe wpisy dla wszystkich wymaganych pól." EXECUTIONTIME="00h:00m:01s.94ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="75" NAME="Rozmiar pakietu" DESCRIPTION="Rozmiar pliku pakietu nie powinien przekraczać 4 GB." EXECUTIONTIME="00h:00m:03s.29ms" OPTIONAL="FALSE">
+      <TEST INDEX="75" NAME="Rozmiar pakietu" DESCRIPTION="Rozmiar pliku pakietu nie powinien przekraczać 4 GB." EXECUTIONTIME="00h:00m:01s.63ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="90" NAME="Pakiety zasobów" DESCRIPTION="Sprawdź, czy dowolne pakiety zasobów zawierają pliki PE." EXECUTIONTIME="00h:00m:02s.04ms" OPTIONAL="FALSE">
+      <TEST INDEX="90" NAME="Pakiety zasobów" DESCRIPTION="Sprawdź, czy dowolne pakiety zasobów zawierają pliki PE." EXECUTIONTIME="00h:00m:01s.01ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="83" NAME="Przestrzeń nazw z ograniczeniami" DESCRIPTION="Sprawdza, czy w manifeście aplikacji występują odwołania do przestrzeni nazw z ograniczeniami." EXECUTIONTIME="00h:00m:01s.99ms" OPTIONAL="FALSE">
+      <TEST INDEX="83" NAME="Przestrzeń nazw z ograniczeniami" DESCRIPTION="Sprawdza, czy w manifeście aplikacji występują odwołania do przestrzeni nazw z ograniczeniami." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Test funkcji zabezpieczeń systemu Windows" RATIONALE="Aplikacje muszą korzystać z funkcji zabezpieczeń systemu Windows.">
-      <TEST INDEX="33" NAME="Analizator binarny" DESCRIPTION="Analiza funkcji zabezpieczeń włączonych dla plików binarnych." EXECUTIONTIME="00h:00m:04s.19ms" OPTIONAL="FALSE">
+      <TEST INDEX="33" NAME="Analizator binarny" DESCRIPTION="Analiza funkcji zabezpieczeń włączonych dla plików binarnych." EXECUTIONTIME="00h:00m:02s.32ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="70" NAME="Analizator wykluczonych plików" DESCRIPTION="Analiza aplikacji w celu wykrycia znanych niezabezpieczonych plików" EXECUTIONTIME="00h:00m:02s.48ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Analizator wykluczonych plików" DESCRIPTION="Analiza aplikacji w celu wykrycia znanych niezabezpieczonych plików" EXECUTIONTIME="00h:00m:01s.24ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="62" NAME="Podpisywanie kodu prywatnego" DESCRIPTION="Aplikacja nie powinna zawierać pakietu plików kluczy podpisywania kodu prywatnego." EXECUTIONTIME="00h:00m:02s.66ms" OPTIONAL="FALSE">
+      <TEST INDEX="62" NAME="Podpisywanie kodu prywatnego" DESCRIPTION="Aplikacja nie powinna zawierać pakietu plików kluczy podpisywania kodu prywatnego." EXECUTIONTIME="00h:00m:01s.28ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="15" TITLE="Test obsługiwanych interfejsów API" RATIONALE="Aplikacja powinna się odwoływać jedynie do interfejsów API dozwolonych przez zestaw SDK systemu Windows dla aplikacji Sklepu Windows.">
-      <TEST INDEX="38" NAME="Obsługiwane interfejsy API" DESCRIPTION="Aplikacja sklepu Windows może korzystać jedynie z obsługiwanych interfejsów API platformy." EXECUTIONTIME="00h:00m:04s.90ms" OPTIONAL="FALSE">
+      <TEST INDEX="38" NAME="Obsługiwane interfejsy API" DESCRIPTION="Aplikacja sklepu Windows może korzystać jedynie z obsługiwanych interfejsów API platformy." EXECUTIONTIME="00h:00m:02s.40ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="Testy zasobów manifestu aplikacji" RATIONALE="Manifest pakietu aplikacji powinien zawierać prawidłowe zasoby zdefiniowane w pliku resources.pri, zgodnie ze specyfikacją pakowania aplikacji i schematem manifestu aplikacji.">
-      <TEST INDEX="45" NAME="Zasoby aplikacji" DESCRIPTION="Pakiet powinien zawierać prawidłowe zasoby zdefiniowane w pliku resources.pri." EXECUTIONTIME="00h:00m:01s.26ms" OPTIONAL="FALSE">
+      <TEST INDEX="45" NAME="Zasoby aplikacji" DESCRIPTION="Pakiet powinien zawierać prawidłowe zasoby zdefiniowane w pliku resources.pri." EXECUTIONTIME="00h:00m:00s.65ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Znakowanie" DESCRIPTION="W aplikacja nie powinny być używane obrazy domyślne zawarte w przykładach zestawu SDK systemu Windows lub w programie Visual Studio." EXECUTIONTIME="00h:00m:03s.38ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Znakowanie" DESCRIPTION="W aplikacja nie powinny być używane obrazy domyślne zawarte w przykładach zestawu SDK systemu Windows lub w programie Visual Studio." EXECUTIONTIME="00h:00m:01s.72ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Test konfiguracji debugowania" RATIONALE="Aplikacja nie powinna instalować żadnych plików binarnych służących do debugowania.">
-      <TEST INDEX="46" NAME="Konfiguracja debugowania" DESCRIPTION="Aplikacja nie powinna instalować żadnych plików binarnych służących do debugowania." EXECUTIONTIME="00h:00m:02s.90ms" OPTIONAL="FALSE">
+      <TEST INDEX="46" NAME="Konfiguracja debugowania" DESCRIPTION="Aplikacja nie powinna instalować żadnych plików binarnych służących do debugowania." EXECUTIONTIME="00h:00m:01s.40ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="21" TITLE="Test kodowania pliku" RATIONALE="Pliki pakietów zawierających aplikacje HTML5 Sklepu Windows muszą być odpowiednio zakodowane.">
-      <TEST INDEX="49" NAME="Kodowanie pliku UTF-8" DESCRIPTION="Pliki pakietów zawierających aplikacje HTML5 Sklepu Windows muszą być odpowiednio zakodowane." EXECUTIONTIME="00h:00m:02s.13ms" OPTIONAL="FALSE">
+      <TEST INDEX="49" NAME="Kodowanie pliku UTF-8" DESCRIPTION="Pliki pakietów zawierających aplikacje HTML5 Sklepu Windows muszą być odpowiednio zakodowane." EXECUTIONTIME="00h:00m:01s.04ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="Test zadeklarowanych możliwości aplikacji" RATIONALE="Pakiety deklarujące specjalne możliwości będą musiały je potwierdzić w procesie dodawania.">
-      <TEST INDEX="52" NAME="Możliwości specjalne" DESCRIPTION="Pakiety deklarujące specjalne możliwości będą musiały je potwierdzić w procesie dodawania." EXECUTIONTIME="00h:00m:02s.10ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Możliwości specjalne" DESCRIPTION="Pakiety deklarujące specjalne możliwości będą musiały je potwierdzić w procesie dodawania." EXECUTIONTIME="00h:00m:01s.06ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Weryfikacja metadanych środowiska wykonawczego systemu Windows" RATIONALE="Metadane źródeł wszystkich generacji muszą być zgodne i spójne.">
-      <TEST INDEX="56" NAME="Atrybut ExclusiveTo" DESCRIPTION="W klasie nie można zaimplementować interfejsu oznaczonego atrybutem ExclusiveTo w odniesieniu do innej klasy." EXECUTIONTIME="00h:00m:17s.16ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="Atrybut ExclusiveTo" DESCRIPTION="W klasie nie można zaimplementować interfejsu oznaczonego atrybutem ExclusiveTo w odniesieniu do innej klasy." EXECUTIONTIME="00h:00m:08s.32ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="57" NAME="Lokalizacja typu" DESCRIPTION="Typy muszą być zdefiniowane w pliku metadanych za pomocą najdłuższej odpowiadającej im przestrzeni nazw." EXECUTIONTIME="00h:00m:01s.50ms" OPTIONAL="FALSE">
+      <TEST INDEX="57" NAME="Lokalizacja typu" DESCRIPTION="Typy muszą być zdefiniowane w pliku metadanych za pomocą najdłuższej odpowiadającej im przestrzeni nazw." EXECUTIONTIME="00h:00m:00s.70ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Uwzględnianie wielkości liter w nazwie typu" DESCRIPTION="Nazwy przestrzeni nazw i typów nie mogą się różnić jedynie wielkością liter." EXECUTIONTIME="00h:00m:01s.39ms" OPTIONAL="FALSE">
+      <TEST INDEX="55" NAME="Uwzględnianie wielkości liter w nazwie typu" DESCRIPTION="Nazwy przestrzeni nazw i typów nie mogą się różnić jedynie wielkością liter." EXECUTIONTIME="00h:00m:00s.70ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="54" NAME="Poprawność nazwy typu" DESCRIPTION="Przestrzeń nazw systemu Windows może zawierać tylko typy systemowe. Globalna przestrzeń nazw nie może zawierać żadnych typów." EXECUTIONTIME="00h:00m:01s.39ms" OPTIONAL="FALSE">
+      <TEST INDEX="54" NAME="Poprawność nazwy typu" DESCRIPTION="Przestrzeń nazw systemu Windows może zawierać tylko typy systemowe. Globalna przestrzeń nazw nie może zawierać żadnych typów." EXECUTIONTIME="00h:00m:00s.70ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="Ogólna poprawność metadanych" DESCRIPTION="Pliki metadanych muszą spełniać różne wymagania, aby mogły zostać uznane za poprawne." EXECUTIONTIME="00h:00m:16s.55ms" OPTIONAL="FALSE">
+      <TEST INDEX="58" NAME="Ogólna poprawność metadanych" DESCRIPTION="Pliki metadanych muszą spełniać różne wymagania, aby mogły zostać uznane za poprawne." EXECUTIONTIME="00h:00m:08s.06ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Właściwości" DESCRIPTION="Nie można używać właściwości tylko do zapisu ani indeksatora. Typ odpowiednich metod pobierających i ustawiających musi być zgodny." EXECUTIONTIME="00h:00m:01s.35ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Właściwości" DESCRIPTION="Nie można używać właściwości tylko do zapisu ani indeksatora. Typ odpowiednich metod pobierających i ustawiających musi być zgodny." EXECUTIONTIME="00h:00m:00s.70ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Test poprawności pakietu" RATIONALE="Weryfikacja zawartości pakietu aplikacji w celu zapewnienia poprawności.">
-      <TEST INDEX="63" NAME="Pliki odpowiednie dla platformy" DESCRIPTION="Aplikacja nie powinna instalować plików niezgodnych z docelową architekturą procesora." EXECUTIONTIME="00h:00m:02s.53ms" OPTIONAL="FALSE">
+      <TEST INDEX="63" NAME="Pliki odpowiednie dla platformy" DESCRIPTION="Aplikacja nie powinna instalować plików niezgodnych z docelową architekturą procesora." EXECUTIONTIME="00h:00m:01s.25ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="66" NAME="Sprawdzanie obsługiwanej struktury katalogów" DESCRIPTION="Zweryfikuj każdy plik w pakiecie, dla którego długość nazwy pliku powinna być krótsza niż wartość MAX_PATH." EXECUTIONTIME="00h:00m:01s.88ms" OPTIONAL="FALSE">
+      <TEST INDEX="66" NAME="Sprawdzanie obsługiwanej struktury katalogów" DESCRIPTION="Zweryfikuj każdy plik w pakiecie, dla którego długość nazwy pliku powinna być krótsza niż wartość MAX_PATH." EXECUTIONTIME="00h:00m:00s.95ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="27" TITLE="Test użycia zasobów" RATIONALE="Zadania w tle WinJS muszą wywołać element close(), aby zwolnić zasób.">
-      <TEST INDEX="68" NAME="Zadanie w tle WinJS" DESCRIPTION="Zadania w tle WinJS muszą wywołać element close(), aby zwolnić zasób." EXECUTIONTIME="00h:00m:04s.16ms" OPTIONAL="FALSE">
+      <TEST INDEX="68" NAME="Zadanie w tle WinJS" DESCRIPTION="Zadania w tle WinJS muszą wywołać element close(), aby zwolnić zasób." EXECUTIONTIME="00h:00m:02s.31ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -143,12 +143,12 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="39418ukaszGrzelak.WiFiConnectUWP" Type="Application" Source="AppxPackage" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.1.0" Language="1045" InstallDate="" OSVersionAtInstallTime="10.0.0.17134" RootDirPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.1.0_x64__3jn91tve87m76" Id="0000d4edaeb1b7e35b6d44c677b668072a7f00001504" HiddenArp="false">
+      <Program Name="39418ukaszGrzelak.WiFiConnectUWP" Type="Application" Source="AppxPackage" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.2.0" Language="1045" InstallDate="" OSVersionAtInstallTime="10.0.0.17134" RootDirPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.2.0_x64__3jn91tve87m76" Id="000060a0bc5fd55b3a9fa94a13ff49b1474300001504" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
-            <PackageManifest PackageFullName="39418ukaszGrzelak.WiFiConnectUWP_1.1.1.0_x64__3jn91tve87m76">
+            <PackageManifest PackageFullName="39418ukaszGrzelak.WiFiConnectUWP_1.1.2.0_x64__3jn91tve87m76">
               <Package>
-                <Identity Name="39418ukaszGrzelak.WiFiConnectUWP" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.1.0" ProcessorArchitecture="x64" />
+                <Identity Name="39418ukaszGrzelak.WiFiConnectUWP" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.2.0" ProcessorArchitecture="x64" />
                 <PhoneIdentity PhoneProductId="17f1e4aa-3bff-4650-b091-493c78d912b2" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
                 <Properties>
                   <DisplayName>WiFiConnectUWP</DisplayName>
@@ -182,21 +182,21 @@
             </PackageManifest>
             <BundleManifest PackageFamilyName="39418ukaszGrzelak.WiFiConnectUWP_3jn91tve87m76">
               <Bundle SchemaVersion="3.0">
-                <Identity Name="39418ukaszGrzelak.WiFiConnectUWP" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.1.0" />
+                <Identity Name="39418ukaszGrzelak.WiFiConnectUWP" Publisher="CN=28EB8D4B-68E5-45A1-AA1F-9D17CA5E1F90" Version="1.1.2.0" />
                 <Packages>
-                  <Package Type="application" Version="1.1.1.0" Architecture="x86" FileName="WiFiConnect_1.1.1.0_x86.appx" Offset="2173224" Size="1058260">
+                  <Package Type="application" Version="1.1.2.0" Architecture="x86" FileName="WiFiConnect_1.1.2.0_x86.appx" Offset="2174439" Size="1058392">
                     <Resources>
                       <Resource Language="PL-PL" />
                       <Resource Scale="200" />
                     </Resources>
                   </Package>
-                  <Package Type="application" Version="1.1.1.0" Architecture="x64" FileName="WiFiConnect_1.1.1.0_x64.appx" Offset="1059715" Size="1113427">
+                  <Package Type="application" Version="1.1.2.0" Architecture="x64" FileName="WiFiConnect_1.1.2.0_x64.appx" Offset="1059946" Size="1114411">
                     <Resources>
                       <Resource Language="PL-PL" />
                       <Resource Scale="200" />
                     </Resources>
                   </Package>
-                  <Package Type="application" Version="1.1.1.0" Architecture="arm" FileName="WiFiConnect_1.1.1.0_ARM.appx" Offset="58" Size="1059575">
+                  <Package Type="application" Version="1.1.2.0" Architecture="arm" FileName="WiFiConnect_1.1.2.0_ARM.appx" Offset="58" Size="1059806">
                     <Resources>
                       <Resource Language="PL-PL" />
                       <Resource Scale="200" />
@@ -209,19 +209,18 @@
         </Indicators>
         <StaticProperties>
           <Files Id="0000da39a3ee5e6b4b0d3255bfef95601890afd80709">
-            <File Id="0000d3a784a0b601ab8905ec06f7c8f1e00f131425c2" Name="clrcompression.dll" ProductName="microsoft® .net framework" CompanyName="microsoft corporation" ProductVersion="1.0.24214.00 built by: projectkrel" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.0.24214.00 built by: projectkrel" Size="69632" SizeOfImage="69632" PeHeaderHash="01017c90ae133bd09e28a4d27f7f6b651b82da84e020" PeChecksum="104676" CrcChecksum="-369591944" BinProductVersion="1.0.24214.00 built by: projectkrel" BinFileVersion="1.0.24214.0" FileDescription="clrcompression" LegalCopyright="© microsoft corporation.  all rights reserved." LinkDate="06/14/2016 03:31:30" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.1.0_x64__3jn91tve87m76\clrcompression.dll" />
-            <File Id="00009f8e5a1e45d932293ee44ec22f5fdb2a1895a6af" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-1463978322" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.1.0_x64__3jn91tve87m76\resources.pri" />
-            <File Id="000099a0bbb1bf30c7b543beaa7667a91f9d6e4057c5" Name="WiFiConnect.dll" ProductName="wificonnect" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="2633728" SizeOfImage="2633728" PeHeaderHash="0101b2b196d6c84c8f01efed6a33ecd0b9cde03125ed" PeChecksum="0" CrcChecksum="-737168167" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="wificonnect" LegalCopyright="copyright ©  2018" LinkDate="06/03/2018 12:22:51" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.1.0_x64__3jn91tve87m76\wificonnect.dll" />
-            <File Id="000005de7189303c27449a8dfac461d1a52a4be714a6" Name="WiFiConnect.exe" ProductName="wificonnect" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="28672" SizeOfImage="28672" PeHeaderHash="0101f45fc02ab065ea4501dc9f1acd409e8f4739ccea" PeChecksum="0" CrcChecksum="-364985680" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="wificonnect" LegalCopyright="copyright ©  2018" LinkDate="06/03/2018 12:22:51" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.1.0_x64__3jn91tve87m76\wificonnect.exe" />
+            <File Id="0000d3a784a0b601ab8905ec06f7c8f1e00f131425c2" Name="clrcompression.dll" ProductName="microsoft® .net framework" CompanyName="microsoft corporation" ProductVersion="1.0.24214.00 built by: projectkrel" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.0.24214.00 built by: projectkrel" Size="69632" SizeOfImage="69632" PeHeaderHash="01017c90ae133bd09e28a4d27f7f6b651b82da84e020" PeChecksum="104676" CrcChecksum="-369591944" BinProductVersion="1.0.24214.00 built by: projectkrel" BinFileVersion="1.0.24214.0" FileDescription="clrcompression" LegalCopyright="© microsoft corporation.  all rights reserved." LinkDate="06/14/2016 03:31:30" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.2.0_x64__3jn91tve87m76\clrcompression.dll" />
+            <File Id="0000d6dfd8e6224d4fe5555d5483c9dc79a9d929889f" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="1981196848" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.2.0_x64__3jn91tve87m76\resources.pri" />
+            <File Id="0000ced54a1757e75d31b4988eeefec7da95675722bc" Name="WiFiConnect.dll" ProductName="wificonnect" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="2633728" SizeOfImage="2633728" PeHeaderHash="0101f1f91dc4a184f17308d79fe4aaa89bc614bb4036" PeChecksum="0" CrcChecksum="-335806007" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="wificonnect" LegalCopyright="copyright ©  2018" LinkDate="06/04/2018 07:40:22" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.2.0_x64__3jn91tve87m76\wificonnect.dll" />
+            <File Id="0000f7d35d85254fdcbf5dfda1fe81ace68dc2ded353" Name="WiFiConnect.exe" ProductName="wificonnect" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="28672" SizeOfImage="28672" PeHeaderHash="010189be4659d89d8458e71bc084e998ddd8cc7e2a15" PeChecksum="0" CrcChecksum="410754402" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="wificonnect" LegalCopyright="copyright ©  2018" LinkDate="06/04/2018 07:40:22" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\39418ukaszgrzelak.wificonnectuwp_1.1.2.0_x64__3jn91tve87m76\wificonnect.exe" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="0000d4edaeb1b7e35b6d44c677b668072a7f00000904" AnalysisVersion="1.60" DictionaryVersion="3.4" Type="Package" Id="39418ukaszGrzelak.WiFiConnectUWP_1.1.1.0_x64__3jn91tve87m76">
-      <AitFile ErrorCode="0" Name="WiFiConnect.exe" Id="000005de7189303c27449a8dfac461d1a52a4be714a6" />
-      <AitFile ErrorCode="0" Name="WiFiConnect.dll" Id="000099a0bbb1bf30c7b543beaa7667a91f9d6e4057c5">
+    <AitStaticAnalysis ProgramId="000060a0bc5fd55b3a9fa94a13ff49b1474300000904" AnalysisVersion="1.60" DictionaryVersion="3.4" Type="Package" Id="39418ukaszGrzelak.WiFiConnectUWP_1.1.2.0_x64__3jn91tve87m76">
+      <AitFile ErrorCode="0" Name="WiFiConnect.dll" Id="0000ced54a1757e75d31b4988eeefec7da95675722bc">
         <AitCategory Id="Com">
           <AitFeature Name="{00000000-0000-0000-0000-000000000008}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000013}" />
@@ -1109,6 +1108,7 @@
           <AitFeature Name="api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentThreadId" />
         </AitCategory>
       </AitFile>
+      <AitFile ErrorCode="0" Name="WiFiConnect.exe" Id="0000f7d35d85254fdcbf5dfda1fe81ace68dc2ded353" />
     </AitStaticAnalysis>
   </DEPENDENCY_INFORMATION>
 </REPORT>

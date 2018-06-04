@@ -76,6 +76,7 @@ namespace WiFiConnect
             {
                 String SSID = QRBuilderParser.ParseSSID(result.Text);
                 String Pass = QRBuilderParser.ParsePass(result.Text);
+                Cache.SaveToCache(SSID, Pass);
                 WiFi.Connect(SSID, Pass);
             }
         }

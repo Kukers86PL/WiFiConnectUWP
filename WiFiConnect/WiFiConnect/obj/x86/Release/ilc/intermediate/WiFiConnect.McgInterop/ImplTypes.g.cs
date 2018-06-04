@@ -32682,6 +32682,30 @@ namespace Windows.UI.Xaml.Controls
 		public static partial class Stubs
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static double get_FontSize(global::System.__ComObject __this)
+			{
+				double __ret = global::__Interop.ForwardComStubs.Stub_8<global::Windows.UI.Xaml.Controls.IControl>(
+									__this, 
+									6
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void put_FontSize(
+						global::System.__ComObject __this, 
+						double value)
+			{
+				global::__Interop.ForwardComStubs.Stub_9<global::Windows.UI.Xaml.Controls.IControl>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			public static global::Windows.UI.Xaml.Media.Brush get_Background(global::System.__ComObject __this)
 			{
 				global::Windows.UI.Xaml.Media.Brush __ret = global::__Interop.ForwardComStubs.Stub_5<global::Windows.UI.Xaml.Controls.IControl, global::Windows.UI.Xaml.Media.Brush>(
